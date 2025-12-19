@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylee.css">
+  <title>Az Form — Buyurtma qabul qilish</title>
+
+  <meta name="description" content="Az Form — buyurtmalarni tez va oson qabul qilish uchun web sahifa">
+  <meta name="keywords" content="az form, buyurtma forma, web forma">
+  <meta name="author" content="Az Form">
+
+  <meta property="og:title" content="Az Form">
+  <meta property="og:description" content="Buyurtma qabul qilish uchun qulay web sahifa">
+
+  <link rel="icon" href="icon.png">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .box {
+      background: white;
+      padding: 25px;
+      width: 320px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+    }
+    input, textarea, button {
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+    }
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<div class="box">
+  <h1>Az Form</h1>
+  <p>Buyurtma qoldiring</p>
+
+  <form>
+    <input type="text" placeholder="Ismingiz" required>
+    <input type="tel" placeholder="Telefon raqam" required>
+    <textarea placeholder="Xabaringiz"></textarea>
+    <button type="submit">Yuborish</button>
+  </form>
+</div>
+
+</body>
+</html>
